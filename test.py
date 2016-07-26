@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-
+#add a mode here 
 from trainSVM import *
 
 
 #读取测试数据
+testa=[]
 testNums = len(cleanedTestList)
 
 testX = np.zeros((testNums,dims))
